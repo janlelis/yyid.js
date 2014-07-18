@@ -7,7 +7,7 @@
   "homepage" : "https://github.com/janlelis/yyid.js",
   "keywords": [
     "uuid",
-    "random",
+    "random"
   ],
   "author" : {
       "name" : "Jan Lelis",
