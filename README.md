@@ -2,8 +2,7 @@
 
 Generates tokens that look like [type 4 UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29), but are more random.
 
-Comes in two flavors: A node version (based on [crypto.randomBytes](http://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback)), and a browser version (based on [crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues).).
-
+Comes in two flavors: Browser [[crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues)] and Node [[crypto.randomBytes](http://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback)].
 
 ## Install
 
