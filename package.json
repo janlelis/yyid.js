@@ -1,0 +1,35 @@
+{
+  "name": "yyid",
+  "version": "0.1.0",
+  "description": "Generates tokens that look like type 4 UUIDs, but are more random.",
+  "main": "yyid.js",
+  "directories": {
+    "spec": "spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.12.17",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "jasmine-node": "~1.14"
+  },
+  "scripts": {
+    "test": "jasmine-node spec && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janlelis/yyid.js.git"
+  },
+  "homepage": "https://github.com/janlelis/yyid.js",
+  "keywords": [
+    "uuid",
+    "random"
+  ],
+  "author": {
+    "name": "Jan Lelis",
+    "email": "mail@janlelis.de",
+    "url": "http://janlelis.com"
+  },
+  "license": "MIT"
+}

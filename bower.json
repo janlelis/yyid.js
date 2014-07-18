@@ -1,0 +1,18 @@
+{
+  "name" : "yyid",
+  "version" : "0.1.0",
+  "description" : "Generates tokens that look like type 4 UUIDs, but are more random.",
+  "main": "./yyid.js",
+  "dependencies": {},
+  "homepage" : "https://github.com/janlelis/yyid.js",
+  "keywords": [
+    "uuid",
+    "random",
+  ],
+  "author" : {
+      "name" : "Jan Lelis",
+      "email" : "mail@janlelis.de",
+      "url" : "http://janlelis.com"
+  },
+  "license": "MIT"
+}
