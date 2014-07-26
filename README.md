@@ -6,8 +6,7 @@ In contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), it uses all d
 
 Comes in two flavors: Browser & Node
 
-Source of randomness [Browser]: [crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues)
-Source of randomness [Node]: [crypto.randomBytes](http://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback)
+Source of randomness: [crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto.getRandomValues) (Browser),  [crypto.randomBytes](http://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback) (Node)
 
 ## Install
 
