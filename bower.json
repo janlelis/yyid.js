@@ -1,7 +1,7 @@
 {
   "name" : "yyid",
   "version" : "0.1.0",
-  "description" : "Generates tokens that look like type 4 UUIDs, but are more random.",
+  "description" : "Generates random tokens that look like type 4 UUIDs: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "main": "./yyid.js",
   "dependencies": {},
   "homepage" : "https://github.com/janlelis/yyid.js",
