@@ -20,13 +20,13 @@ describe('yyid()', function() {
   if(isNode){
     it('uses the the node crypto api', function() {
       var crypto = require('crypto');
-      spyOn(crypto, 'randomBytes').andCallThrough();
+      spyOn(crypto, 'randomBytes').and.callThrough();
       yyid();
       expect(crypto.randomBytes).toHaveBeenCalled();
     });
   } else {
     it('uses the the web crypto api', function() {
-      spyOn(crypto, 'getRandomValues').andCallThrough();
+      spyOn(crypto, 'getRandomValues').and.callThrough();
       yyid();
       expect(crypto.getRandomValues).toHaveBeenCalled();
     });
