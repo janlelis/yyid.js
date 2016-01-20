@@ -47,4 +47,4 @@ yyid(); // => '5ebd4295-92a2-c98b-9103-b1e5d16f2bfa'
 - YYID for [Ruby](https://github.com/janlelis/yyid.rb)
 - YYID for [Go](https://github.com/janlelis/yyid.go)
 - YYID for [Elixir](https://github.com/janlelis/yyid.ex)
-
+- YYID for [Rust](https://github.com/asaaki/yyid.rs)
