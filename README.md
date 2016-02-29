@@ -1,8 +1,8 @@
-# YYID
+# YYID for JavaScript
 
-Generates random tokens that look like [type 4 UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29): `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
-
-In contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), it uses all digits (128bit)
+- Generates a random string in [UUID#4](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29) format: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
+- In contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), it uses all digits (128bit)
+- Use a crytographically solid source of randomness
 
 Comes in two flavors: Browser & Node
 
@@ -42,9 +42,6 @@ yyid = require('yyid');
 yyid(); // => '5ebd4295-92a2-c98b-9103-b1e5d16f2bfa'
 ```
 
-## Also Available
+## Other Versions
 
-- YYID for [Ruby](https://github.com/janlelis/yyid.rb)
-- YYID for [Go](https://github.com/janlelis/yyid.go)
-- YYID for [Elixir](https://github.com/janlelis/yyid.ex)
-- YYID for [Rust](https://github.com/asaaki/yyid.rs)
+[YYID](https://github.com/micromodules/yyid) is available for more languages, such as Ruby, Elixir, or Rust.
