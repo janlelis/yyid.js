@@ -1,7 +1,7 @@
 {
   "name": "yyid",
   "version": "0.1.0",
-  "description": "Generates random tokens that look like type 4 UUIDs: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "description": "Generates a random uuid-like string (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx) via crypto.getRandomValues",
   "main": "yyid.js",
   "directories": {
     "spec": "spec"
@@ -15,7 +15,7 @@
     "jasmine": "~2.3"
   },
   "scripts": {
-    "test": "jasmine && karma start"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/janlelis/yyid.js",
   "keywords": [
     "uuid",
-    "random"
+    "random",
+    "crypto"
   ],
   "author": {
     "name": "Jan Lelis",
