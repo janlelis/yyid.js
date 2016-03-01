@@ -1,4 +1,4 @@
-# YYID for JavaScript (Browser)
+# YYID for JavaScript (Browser) [![[travis]](https://travis-ci.org/janlelis/yyid.js.png)](https://travis-ci.org/janlelis/yyid.js)
 
 - Generates a random string in [UUID#4](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29) format: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 - In contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), it uses all digits (128bit)
