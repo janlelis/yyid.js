@@ -15,8 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'yyid.js',
-      'spec/*_spec.js'
+      { pattern: 'yyid.js', type: 'module' },
+      { pattern: 'spec/*_spec.js', type: 'module' },
     ],
 
 

@@ -1,8 +1,4 @@
-'use strict';
-
-if (typeof(yyid) === 'undefined') {
-  var yyid = require('../yyid');
-}
+import yyid from '../yyid.js'
 
 describe('yyid()', function() {
   it('returns a string', function() {

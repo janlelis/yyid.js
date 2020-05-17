@@ -1,18 +1,18 @@
 {
   "name": "yyid",
   "version": "1.0.0",
-  "description": "Generates a random uuid-like string (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx) via crypto.getRandomValues",
+  "description": "Generates a random uuid* string via crypto.getRandomValues or Math.random()",
   "main": "yyid.js",
   "directories": {
     "spec": "spec"
   },
   "dependencies": {},
   "devDependencies": {
-    "karma": "^0.13.10",
-		"karma-jasmine": "~0.3",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-firefox-launcher": "^0.1.6",
-    "jasmine": "~2.3"
+    "jasmine": "~3.5",
+    "karma": "~5.0",
+    "karma-chrome-launcher": "~3.1",
+    "karma-firefox-launcher": "~1.3",
+    "karma-jasmine": "~3.1"
   },
   "scripts": {
     "test": "karma start"
@@ -29,8 +29,8 @@
   ],
   "author": {
     "name": "Jan Lelis",
-    "email": "mail@janlelis.de",
-    "url": "http://janlelis.com"
+    "email": "hi@ruby.consulting",
+    "url": "https://janlelis.com"
   },
   "license": "MIT"
 }
