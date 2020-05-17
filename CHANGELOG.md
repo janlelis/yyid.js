@@ -1,6 +1,6 @@
 # Change Log
 
-## v2.0.0 (unreleased)
+## v2.0.0
 
 - Convert to ES6
 - Add non-crypto fallback if crypto API not available

@@ -1,6 +1,6 @@
 {
   "name": "yyid",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generates a random uuid* string via crypto.getRandomValues or Math.random()",
   "main": "yyid.js",
   "directories": {
