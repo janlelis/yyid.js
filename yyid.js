@@ -11,7 +11,7 @@ function yyid() {
   window.crypto.getRandomValues(randomTwoBytes)
 
   return 'xx-x-x-x-xxx'.replace(/x/g, () => {
-    return `000${randomTwoBytes[i++].toString(16)}`.substr(-4)
+    return randomTwoBytes[i++].toString(16).padStart(4, 0);
   })
   /* eslint-enable arrow-body-style, no-plusplus */
 }
