@@ -1,8 +1,8 @@
 # Change Log
 
-## v2.0.2 (unreleased)
+## v3.0.0 (unreleased)
 
-- Remove travis CI, add GitHub CI
+- Declare library type "module"
 
 ## v2.0.1
 
