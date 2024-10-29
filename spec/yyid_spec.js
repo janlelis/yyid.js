@@ -1,4 +1,4 @@
-import yyid from '../yyid.js'
+import yyid from '../yyid.mjs'
 
 describe('yyid()', function() {
   it('returns a string', function() {

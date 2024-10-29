@@ -21,7 +21,7 @@ $ yarn add yyid
 
 ### script file
 
-Copy `yyid.js` from https://raw.githubusercontent.com/janlelis/yyid.js/main/yyid.js
+Use `yyid.mjs` from https://raw.githubusercontent.com/janlelis/yyid.js/main/yyid.mjs
 
 ## Usage
 
