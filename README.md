@@ -1,4 +1,4 @@
-# YYID for JavaScript (Browser) [![[travis]](https://travis-ci.org/janlelis/yyid.js.svg)](https://travis-ci.org/janlelis/yyid.js)
+# YYID for JavaScript (Browser, ESM) [![[ci]](https://github.com/janlelis/yyid.js/workflows/Test/badge.svg)](https://github.com/janlelis/yyid.js/actions?query=workflow%3ATest)
 
 - Generates a [UUID#4](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29)-like random string, but in contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), omits the static bits
 - Format: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` (128bit randomness)
@@ -21,7 +21,7 @@ $ yarn add yyid
 
 ### script file
 
-Copy `yyid.js` from https://raw.githubusercontent.com/janlelis/yyid.js/master/yyid.js
+Copy `yyid.js` from https://raw.githubusercontent.com/janlelis/yyid.js/main/yyid.js
 
 ## Usage
 

@@ -1,5 +1,9 @@
 # Change Log
 
+## v2.0.2 (unreleased)
+
+- Remove travis CI, add GitHub CI
+
 ## v2.0.1
 
 - Refactor: Prefer padStart method over previous approach for better readability, patch by @gprst
